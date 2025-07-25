@@ -7,7 +7,7 @@ CREATE TABLE tb_estudantes (
     idade INT,
     serie VARCHAR(255) NOT NULL,
     datamatricula DATE,
-    nota DECIMAL(10,2) NOT NULL,
+    nota DECIMAL(4,2) NOT NULL,
     PRIMARY KEY (id)
     );
     
